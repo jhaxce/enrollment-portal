@@ -1,0 +1,1 @@
+                  <?php if (session_status() === PHP_SESSION_NONE) {include("auth_session.php");} ?>

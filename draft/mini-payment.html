@@ -1,0 +1,38 @@
+<div class="form-body">
+  <div class="row">
+    <!-- <div class="form-holder"> -->
+      <div class="form-content">
+        <div class="form-items">
+          <h4>Forms</h4>
+          <p>Fill in the data below.</p>
+          <form action="payment.php" method="post" class="requires-validation" novalidate>
+
+            <div class="row">
+              <div class="col-md-4">
+                <input class="form-control mt-3" type="text" name="student_first_name" placeholder="First Name"
+                  required>
+                <div class="valid-feedback">First name field is valid!</div>
+                <div class="invalid-feedback">First name field cannot be blank!</div>
+              </div>
+              <div class="col-md-4">
+                <input class="form-control mt-3" type="text" name="student_middle_name" placeholder="Middle Name"
+                  required>
+                <div class="valid-feedback">Middle name field is valid!</div>
+                <div class="invalid-feedback">Middle name field cannot be blank!</div>
+              </div>
+              <div class="col-md-4">
+                <input class="form-control mt-3" type="text" name="student_last_name" placeholder="Last Name" required>
+                <div class="valid-feedback">Last name field is valid!</div>
+                <div class="invalid-feedback">Last name field cannot be blank!</div>
+              </div>
+            </div>
+
+            <div class="form-button mt-3">
+              <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    <!-- </div> -->
+  </div>
+</div>
