@@ -1,7 +1,7 @@
 # 🎓 Enrollment Portal – Academic Project
 
 ## 📚 Overview
-The **Enrollment Portal** is a web-based system designed as part of an academic requirement for [Your School Name].  
+The **Enrollment Portal** is a web-based system designed as part of an academic requirement for Mindanao State University.  
 It simulates a secure platform where students can sign up, log in, view dashboards, manage profiles, process payments, and adjust settings.  
 **Note:** This project is for **academic purposes only** and is not officially implemented.
 
